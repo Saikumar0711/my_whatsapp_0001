@@ -9,3 +9,15 @@
   overflow-y: scroll;
 
 }
+
+.container::-webkit-scroller{
+  width: 5px;
+}
+.container::-webkit-scroller{
+  box-shadow: 0 0 6px white(163,163,163,0.3);
+  border-radius: 5px;
+}
+
+.container::-webkit-scroller-thumb{
+  border-radius: ;
+}
