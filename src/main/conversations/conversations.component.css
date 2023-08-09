@@ -1,6 +1,9 @@
 .container{
-  position: relative;
-  width: 1396px;
-  max-width: 100%;
-  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 43.6rem;
+  background-color: red;
+  
+
 }
