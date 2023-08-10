@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -7,17 +7,16 @@
   background-color: white;
   overflow-x: hidden;
   overflow-y: scroll;
-
 }
 
-.container::-webkit-scrollerbar{
+.container::-webkit-scrollbar {
   width: 5px;
 }
-.container::-webkit-scrollerbar{
-  box-shadow: 0 0 6px white(163,163,163,0.3);
+.container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(163, 163, 163, 0.3);
   border-radius: 5px;
 }
-
-.container::-webkit-scrollerbar-thumb{
-  border-radius:100px ;
+.container::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 6px rgb(163, 163, 163);
 }

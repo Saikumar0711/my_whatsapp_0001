@@ -8,6 +8,13 @@
   margin-top: 2px;
   border-bottom: 2px solid #ccc;
 }
+.container:hover{
+  background-color: #e7e8e9;
+  width: 29rem;
+  height: 4.5rem;
+  cursor: pointer;
+}
+
 .avatar {
   display: flex;
   justify-content: center;
